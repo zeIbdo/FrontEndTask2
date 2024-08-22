@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.rr{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00FFFF;
+    padding-left: 100px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    padding-right: 150px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover{
+    color: #008FCC;
+}
+.clss{
+    background-image: url(pexels-stywo-1054218.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clss-content{
+    text-align: center;
+}
+.clss-content p{
+    font-size: 20px;
+    margin: 0;
+}
+.clss-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.clss-content button {
+    background-color: #00CFFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.clss-content button:hover {
+    background-color: #008FCC;
+}
+
